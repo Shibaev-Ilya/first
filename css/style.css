@@ -1,0 +1,406 @@
+
+.wrapper {
+	width: 1500px; 
+	height: 3458px;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%; 
+	height: 87px;
+	position: relative;
+}
+
+.logo {
+	width: 201px; 
+	height: 31px;
+	display: inline-block;
+	float: left;
+	position: absolute;
+	left: 130px;
+	top: 28px;
+}
+
+header nav {
+	position: absolute;
+	top: 34px;
+	right: 111px;
+	width: 473px;
+}
+
+header nav a {
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	color: #868b94;
+	text-align: left;
+	text-transform: uppercase;
+	height: 11px;
+	}
+
+header nav a:last-child {
+float: right;}
+
+header nav a:first-child { margin-right: 30px;
+}
+header nav a:nth-child(2) { margin-right: 65px;
+}
+
+.iphone {
+	width: 100%;
+	height: 843px;
+	background: url(../img/hand.png) 858px 100% no-repeat,
+	url(../img/cloud1.png) 120px 147px no-repeat,
+	url(../img/cloud2.png) 1248px 230px no-repeat,
+	url(../img/cloud3.png) 153px 737px no-repeat,
+	url(../img/cloud4.png) 1364px 698px no-repeat ;
+	background-color: #66aada;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.iphone h1 {
+	font-size: 51px;
+	color: #f7f6f2;
+	text-transform: uppercase;
+	line-height: 72px;
+	font-weight: 900;
+	transform-origin: left center;
+	transform: scaleX(1.09);
+	width: 500px;
+	
+}
+
+.iphone p { 
+	color: #ffffff;
+	font-size: 22px;
+	line-height: 70px;
+	font-weight: 200;
+	transform-origin: left center;
+	transform: scaleX(0.88, 0.92);
+	transform: translateX(5px);
+	width: 500px;
+}
+
+.i_sp p { 
+	color: #ffffff;
+	font-size: 16px;
+}
+
+.i_sp div { display: inline-block;
+	width: 57px;
+	height: 22px;
+	border-radius: 5px;
+	background: #ffce54;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 5px;
+}
+.i_sp { margin-top: 40px;
+		color: #ffffff;
+		font-size: 16px;
+		padding-left: 7px;
+}
+
+.iptext {
+	padding-left: 158px;
+	padding-top: 222px;	
+}
+
+form {
+	margin-top: 30px;
+	margin-left: 3px;
+}
+
+input[type=email] {
+	width: 394px;
+	height: 52px;
+	border-radius: 5px;
+	font-size: 18px;
+	line-height: 133px;
+	padding-left: 29px;
+	border: none;
+}
+
+input::placeholder { opacity: 0.3; font-weight: 300;
+}
+
+button.green_btn {
+	width: 113px;
+	height: 54px;
+	border-radius: 5px;
+	color: #ffffff; 
+	background: #77c344;
+	font-weight: 500;
+	margin-left: 37px;
+	cursor: pointer;
+	border: none;
+	font-size: 18px;
+	font-family: 'Ubuntu', sans-serif;
+}	
+
+div .company {
+	width: 100%; 
+	height: 158px;
+	background: #f8f8f8 url(../img/company.png) 52% 55% no-repeat;
+}
+
+.why_ta { 
+	position: relative;
+	width: 100%;
+	height: 1017px;
+	background: url(../img/macbook.png) 100% 69% no-repeat;
+ }
+
+.why_ta_h {
+	color: rgb(76, 87, 103);
+	font-family: 'Ubuntu', sans-serif;
+	width: 315px;
+	height: 40px;
+	position: absolute;
+	top: 112px;
+	left: 547px;
+	font-size: 39px;
+	text-transform: uppercase;
+	transform-origin: left center;
+	transform: scaleX(1.05);
+	font-weight: bold;
+}
+
+.why_ta_p {
+	padding-top: 281px;
+	padding-right: 850px;
+	padding-left: 148px;
+}
+
+.why_ta_p .why_ta_bp p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: rgba(148, 153, 162, 255);
+	text-align: left;
+	line-height: 22px;
+	
+}
+
+.why_ta_p .why_ta_bs {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 22px;
+	color: rgba(45, 57, 76, 255);
+	text-align: left;
+	padding-left: 60px;
+}
+
+.why_ta_bs { position: relative; }
+
+.why_ta_bs img { position: absolute;
+					left: -10px;
+					top: -10px;
+}
+
+.why_ta_p div.why_ta_bp {
+	width: 500px;
+	height: 102px;
+	margin-top: 21px;
+	margin-bottom: 10px;
+}
+
+.why_ta_p div.why_ta_bp.second {
+	margin-bottom: 20px;
+}
+
+div.diffrent { 
+	height: 732px; 
+	background: #efefef url(../img/bg-diffrent.png);
+	position: relative;
+}
+
+.diffrent_h { 
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 39px;
+	color: rgba(45, 57, 76, 255);
+	text-align: left;
+	padding-top: 157px;
+	margin-left: 414px;
+	text-transform: uppercase;
+	transform-origin: left center;
+	transform: scaleX(0.91);
+ }
+
+
+
+ .diffrent_h2 {
+ 	margin-left: 216px;
+ 	margin-bottom: 34px;
+ 	margin-top: 162px;
+ 	font-family: 'Ubuntu', sans-serif;
+	font-size: 28px;
+	color: rgba(45, 57, 76, 255);
+	text-align: left;
+ }
+
+ .diffrent_h2 img { 
+ 	position: absolute;
+ 	left: 124px;
+ 	top: 349px;
+ 	 }
+
+ .diffrent_p {
+ 	padding-left: 128px;
+ 	padding-right: 647px;
+ 	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 32px;
+	color: rgba(90, 98, 110, 255);
+	text-align: left;
+ }
+
+ div.page {
+ 	display: inline-block;
+ 	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	color: rgb(190, 193, 199);
+	text-align: left;
+	margin-right: 5px;
+	width: 15px;
+	height: 15px;
+	padding: 5px;
+	text-align: center;
+ }
+
+ .page4 { 
+ 	position: absolute; 
+ 	bottom: 124px;
+ 	left: 740px;
+ 	
+ 	}
+
+.page4 .one {
+	color: white;
+	background: #64a4d7;
+	border-radius: 50%;
+}
+
+.singup {
+	height: 483px;
+}
+
+footer {
+	height: 139px;
+	background: #f9f9f9 url(../img/bg-footer.png) repeat-x;
+}
+
+.singup h3 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 40px;
+	color: rgba(90, 98, 110, 255);
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 140px;
+}
+
+.singup p {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 24px;
+	color: rgba(90, 98, 110, 255);
+	text-align: center;
+	font-style: italic;
+	line-height: 100px;
+}
+
+.singup form {
+	margin-top: 29px;
+	margin-left: 322px;
+}
+
+.singup input[type=email] {
+	width: 550px;
+	height: 66px;
+	border-radius: 4px;
+	font-size: 18px;
+	line-height: 133px;
+	padding-left: 77px;
+	border: 1px solid #d1d1d1;
+	background: url("../img/envelope.png") 24px center no-repeat;
+}
+
+.singup input::placeholder { 
+	opacity: 0.3;
+ 	font-weight: 300;
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-size: 21px;
+}
+
+.singup button.green_btn {
+	width: 190px;
+	height: 70px;
+	border-radius: 3px;
+	color: #ffffff; 
+	background: #77c344;
+	font-weight: 500;
+	margin-left: 31px;
+	cursor: pointer;
+	border: none;
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+footer {
+	position: relative;
+}
+
+.logo_footer {
+	position: absolute;
+	left: 130px;
+	bottom: 53px;
+}	
+
+.footer_a a { display: inline-block; }
+
+.footer_nav {
+	display: inline-block; 
+	float: left;
+	margin-left: 703px;
+	padding-top: 58px;
+}
+
+footer nav a {
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	color: #5e6673;
+	text-align: left;
+	text-transform: uppercase;
+	margin-right: 32px;
+}
+
+footer nav a:last-child { margin-right: 0; }
+
+.social {
+	display: inline-block;
+	float: right;
+	width: 322px;
+	padding-top: 55px;
+	background: url("../img/vert-bg-foot.png") left bottom no-repeat;
+}
+
+.twit {
+	width: 22px;
+	height: 22px;
+	background: url("../img/social-ico.png") -22px -3px no-repeat;
+	margin-left: 22px;
+}
+
+.face {
+	width: 22px;
+	height: 23px;
+	background: url('../img/social-ico.png') no-repeat -70px -2px;
+	margin-left: 23px;
+}
+
+.goog {
+	width: 22px;
+	height: 22px;
+	background: url('../img/social-ico.png') no-repeat -119px -2px;
+	margin-left: 22px;
+}
